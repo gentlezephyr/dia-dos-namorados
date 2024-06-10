@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e63946;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+p {
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    padding: 15px 35px;
+    border-radius: 0.5em;
+    border: 0;
+    font-weight: 600;
+}
+
+img {
+    width: 200px;
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0% {
+		transform: scale(0.5);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+.hidden {
+    display: none;
+}
