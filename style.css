@@ -10,6 +10,10 @@ body {
     font-weight: 700;
 }
 
+.bg {
+    background-color: black;
+}
+
 p {
     color: white;
 }
