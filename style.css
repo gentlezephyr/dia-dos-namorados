@@ -10,10 +10,6 @@ body {
     font-weight: 700;
 }
 
-.bg {
-    background-color: black;
-}
-
 p {
     color: white;
 }
@@ -32,6 +28,16 @@ button {
     border-radius: 0.5em;
     border: 0;
     font-weight: 600;
+}
+
+button:active {
+    transform: rotateX(30deg);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 img {
